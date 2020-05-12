@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset='utf-8'>
+        <title>Binary to Decimal | Conversor</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        
+        <div class="box" id="atenas">
+            <div class="txt-title">
+                <h1>Tell to the lamps what is your Binary Number ...</h1>
+            </div>
+
+            <div class="img" id="zeus">
+                <img alt="imgLampada" id="imgLampada1" src="./img/lampada-acesa.png" >
+                <img alt="imgLampada" id="imgLampada2" src="./img/lampada-acesa.png" >
+                <img alt="imgLampada" id="imgLampada3" src="./img/lampada-acesa.png" >
+                <img alt="imgLampada" id="imgLampada4" src="./img/lampada-acesa.png" >
+                <img alt="imgLampada" id="imgLampada5" src="./img/lampada-acesa.png" >
+                <img alt="imgLampada" id="imgLampada6" src="./img/lampada-acesa.png" >
+                <img alt="imgLampada" id="imgLampada7" src="./img/lampada-acesa.png" >
+                <img alt="imgLampada" id="imgLampada8" src="./img/lampada-acesa.png" >
+            </div>
+
+            <div class="input" id="hercules">
+                <input type="text" name="input" placeholder="write here the Binary Number" 
+                maxlength="8" id="data" autocomplete="off"/>
+            </div>
+
+            <div class="button" id="button">
+                <button type="button" id="btn">CALCULATE</button>
+            </div>
+            
+            <div class="output" id="minerva">
+                
+                <h1>Your Decimal Number is:</h1>
+                <input type="text" id="output"/>
+                
+            </div>
+
+        </div>          
+
+        <script>
+
+            var text = document.querySelector('body div#atenas div#hercules input#data');
+            var btn = document.querySelector('body div#atenas div#button button#btn');
+
+            btn.onclick = function () {
+
+                var text0 = text.value[0];
+                var text1 = text.value[1];
+                var text2 = text.value[2];
+                var text3 = text.value[3];
+                var text4 = text.value[4];
+                var text5 = text.value[5];
+                var text6 = text.value[6];
+                var text7 = text.value[7];
+
+                if (text7 == 1) {
+                    var a = 2 ** 0;
+                } else {
+                    var a = 0;
+                }
+
+                if (text6 == 1) {
+                    var b = 2 ** 1;
+                } else {
+                    var b = 0;
+                }
+
+                if (text5 == 1) {
+                    var c = 2 ** 2;
+                } else {
+                    var c = 0;
+                }
+
+                if (text4 == 1) {
+                    var d = 2 ** 3;
+                } else {
+                    var d = 0;
+                }
+                
+                if (text3 == 1) {
+                    var e = 2 ** 4;
+                } else {
+                    var e = 0;
+                }
+
+                if (text2 == 1) {
+                    var f = 2 ** 5;
+                } else {
+                    var f = 0;
+                }
+                    
+                if (text1 == 1) {
+                    var g = 2 ** 6;
+                } else {
+                    var g = 0;
+                }
+
+                if (text0 == 1) {
+                    var h = 2 ** 7;
+                } else {
+                    var h = 0;
+                }
+
+                var sum = a + b + c + d + e + f + g + h;
+
+                output = document.querySelector('body div#atenas div#minerva input#output');
+
+                output.value = sum; 
+            }
+
+        </script>        
+    </body>
+</html>
