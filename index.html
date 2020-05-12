@@ -51,9 +51,7 @@
 
                 for (i = 0; i <= 7; i++) {
                     text[i] = document.querySelector('body div#atenas div#hercules input#data').value[i];
-                }
-
-                for (i = 0; i <= 7; i++) {
+                    
                     if (text[i] == 1) {
                         text[i] = 2 ** (7 - i);
                     } else {
