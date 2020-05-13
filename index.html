@@ -2,6 +2,7 @@
 <html lang="pt-br" dir="ltr">
     <head>
         <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Binary to Decimal | Conversor</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
@@ -25,7 +26,7 @@
             </div>
 
             <div class="input" id="hercules">
-                <input type="text" name="input" placeholder="write here the Binary Number" 
+                <input type="text" name="input" placeholder="write here" 
                 maxlength="8" id="data" autocomplete="off"/>
             </div>
 
@@ -45,23 +46,136 @@
         <script>
 
             var btn = document.querySelector('body div#atenas div#button button#btn');
+            var data = document.querySelector('body div#atenas div#hercules input#data');
+
+            data.onkeyup = function () {
+
+                if (data.value[7] !== undefined) {
+
+                    if(data.value[0] == 0) {
+
+                        var rotaDark = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-apagada.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada1').src = rotaDark;
+
+                    } else if (data.value[0] == 1) {
+
+                        var rotaLight = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-acesa.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada1').src = rotaLight;
+
+                    }
+
+                    if(data.value[1] == 0) {
+
+                        var rotaDark = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-apagada.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada2').src = rotaDark;
+
+                    } else if (data.value[1] == 1) {
+
+                        var rotaLight = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-acesa.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada2').src = rotaLight;
+
+                    }
+
+                    if(data.value[2] == 0) {
+
+                        var rotaDark = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-apagada.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada3').src = rotaDark;
+
+                    } else if (data.value[2] == 1) {
+
+                        var rotaLight = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-acesa.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada3').src = rotaLight;
+
+                    }
+
+                    if(data.value[3] == 0) {
+
+                        var rotaDark = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-apagada.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada4').src = rotaDark;
+
+                    } else if (data.value[3] == 1) {
+
+                        var rotaLight = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-acesa.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada4').src = rotaLight;
+
+                    }
+
+                    if(data.value[4] == 0) {
+
+                        var rotaDark = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-apagada.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada5').src = rotaDark;
+
+                    } else if (data.value[4] == 1) {
+
+                        var rotaLight = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-acesa.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada5').src = rotaLight;
+
+                    }
+
+                    if(data.value[5] == 0) {
+
+                        var rotaDark = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-apagada.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada6').src = rotaDark;
+
+                    } else if (data.value[5] == 1) {
+
+                        var rotaLight = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-acesa.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada6').src = rotaLight;
+
+                    }
+
+                    if(data.value[6] == 0) {
+
+                        var rotaDark = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-apagada.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada7').src = rotaDark;
+
+                    } else if (data.value[6] == 1) {
+
+                        var rotaLight = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-acesa.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada7').src = rotaLight;
+
+                    }
+
+                    if(data.value[7] == 0) {
+
+                        var rotaDark = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-apagada.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada8').src = rotaDark;
+
+                    } else if (data.value[7] == 1) {
+
+                        var rotaLight = ('file:///C:/.devMageveske/app-ideas/tier-1-BeginnerProjects/Bin2Dec/img/lampada-acesa.png');
+                        document.querySelector('body div#atenas div#zeus img#imgLampada8').src = rotaLight;
+
+                    }
+
+                } else {
+
+                    return;
+
+                }
+            }
 
             btn.onclick = function () {
                 var text = [];
 
                 for (i = 0; i <= 7; i++) {
                     text[i] = document.querySelector('body div#atenas div#hercules input#data').value[i];
-                    
+                        
                     if (text[i] == 1) {
+
                         text[i] = 2 ** (7 - i);
+
                     } else {
+
                         text[i] = 0;
+
                     }
                 }
-                
+                    
                 var sum = text.reduce((accumulator, currentValue) => accumulator + currentValue);
                 document.querySelector('body div#atenas div#minerva input#output').value = sum;
-            }
+            }                   
+
 
         </script>        
     </body>
