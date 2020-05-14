@@ -1,7 +1,7 @@
 # Conversor from Binary to Decimal Number
 > This web page converts a binary number to decimal number, and the lamps show whats is the binary number !!!
 
-This project was inspired on App Ideas Collection database from florinpop17.
+This project was inspired on App Ideas Collection database from [florinpop17](https://github.com/florinpop17/app-ideas).
 It help us to a rapid conversion to study, work, or just fun, why not ?!
 
 <p align="center">
