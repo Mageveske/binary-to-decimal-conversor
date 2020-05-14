@@ -39,4 +39,4 @@ This project is with MIT license. Please, to read the file [LICENSE](LICENSE.md)
 
 ---
 
-Done with ♥ by PROTA
+Done with ❤ by PROTA
