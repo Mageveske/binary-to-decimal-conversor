@@ -8,10 +8,10 @@ It help us to a rapid conversion to study, work, or just fun, why not ?!
   <a href="#Technologies-Used">Technologies Used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#How-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#LICENSE">License</a>
+  <a href="#-LICENSE">License</a>
 </p>
 
-## Technologies Used
+## 🤖Technologies Used
 
 This project was developed using those technologies:
 
@@ -25,7 +25,7 @@ You can view the layout of this project through [this link](https://www.figma.co
 
 P.S.: First, you'll need to make an account on [Figma](https://www.figma.com/).
 
-## How to contribute
+## 👊How to contribute
 
 - Do a fork of the repository;
 - Create a new branch;
@@ -33,7 +33,7 @@ P.S.: First, you'll need to make an account on [Figma](https://www.figma.com/).
 - Do a push to a new branch;
 - Done.
 
-## LICENSE
+## 📝LICENSE
 
 This project is with MIT license. Please, to read the file [LICENSE](LICENSE.md), if you want to get more details.
 
