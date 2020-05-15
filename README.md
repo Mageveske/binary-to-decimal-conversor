@@ -5,7 +5,7 @@ This project was inspired on App Ideas Collection database from [florinpop17](ht
 It help us to a rapid conversion to study, work, or just fun, why not ?!
 
 <p align="center">
-  <a href="#Technologies">Technologies Used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#How-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#LICENSE">License</a>
