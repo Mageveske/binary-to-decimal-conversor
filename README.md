@@ -8,7 +8,7 @@ It help us to a rapid conversion to study, work, or just fun, why not ?!
   <a href="#Technologies-Used">Technologies Used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#How-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-LICENSE">License</a>
+  <a href="#LICENSE">License</a>
 </p>
 
 ## 🤖Technologies Used
