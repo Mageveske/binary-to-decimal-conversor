@@ -19,7 +19,7 @@ This project was developed using those technologies:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://www.javascript.com/)
 
-## Layout
+## 🎨Layout
 
 You can view the layout of this project through [this link](https://www.figma.com/file/NlG6bgTJgg001fuUYErvPO/Bin2Dec?node-id=0%3A1).
 
