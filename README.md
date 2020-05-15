@@ -11,7 +11,7 @@ It help us to a rapid conversion to study, work, or just fun, why not ?!
   <a href="#LICENSE">License</a>
 </p>
 
-## 🤖Technologies Used
+## 🤖Technologies
 
 This project was developed using those technologies:
 
